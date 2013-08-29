@@ -1,6 +1,6 @@
 {
   "name": "bower-dep-2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/temp-repos/bower-dep-2",
   "authors": [
     "Daniel Chatfield <chatfielddaniel@gmail.com>"
@@ -12,5 +12,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bower-dep-shared": "temp-repos/bower-dep-shared#~2.0.0"
+  }
 }
